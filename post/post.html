@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Post Route</title>
+  </head>
+  <body>
+  <h2>New Post</h2>
+  <input type = "text" [(ngModel)]="enteredTitle">
+  <textarea rows = "6" [(ngModel)]="enteredContent"></textarea> <!-- property binding in use:-->
+  <button (click)="onAddPost()">Enter into DB</button>
+  <script src = "/Users/Villain/Desktop/TXT/MONGO/mongotask/server.js"></script>
+  </body>
+</html>
